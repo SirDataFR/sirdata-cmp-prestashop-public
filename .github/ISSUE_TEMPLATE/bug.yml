@@ -1,0 +1,54 @@
+name: Anomalie / Bug report
+description: Signaler un problème du module Sirdata CMP pour PrestaShop / Report a problem with the Sirdata CMP module for PrestaShop
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Les issues sont publiques. N'y mettez ni identifiants, ni mots de passe, ni données personnelles, et signalez une faille de sécurité par « Report a vulnerability » (onglet Security), jamais ici.
+
+        Issues are public. Do not include credentials, passwords or personal data, and report a security vulnerability with "Report a vulnerability" (Security tab), never here.
+  - type: input
+    id: module-version
+    attributes:
+      label: Version du module / Module version
+      description: Modules → Gestionnaire de modules / Module Manager
+      placeholder: "1.0.3"
+    validations:
+      required: true
+  - type: input
+    id: prestashop-version
+    attributes:
+      label: Version de PrestaShop / PrestaShop version
+      placeholder: "8.2.9"
+    validations:
+      required: true
+  - type: input
+    id: php-version
+    attributes:
+      label: Version de PHP / PHP version
+      placeholder: "8.1"
+    validations:
+      required: true
+  - type: dropdown
+    id: multistore
+    attributes:
+      label: Multiboutique / Multistore
+      options:
+        - Non / No
+        - Oui / Yes
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Que se passe-t-il ? / What happens?
+      description: Étapes pour reproduire, résultat attendu, résultat obtenu / Steps to reproduce, expected result, actual result
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Message d'erreur / Error message
+      description: Message affiché, ou extrait du journal d'erreurs PHP / Displayed message, or PHP error log excerpt
+      render: text

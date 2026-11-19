@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>lowsirdata</name>
+	<displayName><![CDATA[Sirdata CMP]]></displayName>
+	<version><![CDATA[1.0.3]]></version>
+	<description><![CDATA[Sirdata CMP is a Consent Management Platform made to reply to privacy regulations such like GDPR, ePrivacy, CCPA and already used by thousands of websites.]]></description>
+	<author><![CDATA[Sirdata]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>

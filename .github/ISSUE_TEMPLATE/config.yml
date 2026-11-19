@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Faille de sécurité / Security vulnerability
+    url: https://github.com/SirDataFR/sirdata-cmp-prestashop-public/security/advisories/new
+    about: Signalement privé, que seule l'équipe Sirdata voit / Private report, seen only by the Sirdata team
+  - name: Documentation
+    url: https://cmp.docs.sirdata.net/install-1/dans-un-cms/chargement-dans-prestashop
+    about: Installation et configuration du module / Module installation and configuration
